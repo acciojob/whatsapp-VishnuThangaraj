@@ -17,6 +17,11 @@ public class Message {
         this.timestamp = timestamp;
     }
 
+    public Message(int id, String content){
+        this.id = id;
+        this.content = content;
+    }
+
     // Getters and Setters
 
     public int getId() {
